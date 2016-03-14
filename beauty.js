@@ -92,3 +92,36 @@ pie2.selling_points.forEach(function(item) {
 })
 
 })
+
+
+
+
+$('#second').click(function() {
+
+$('#div1').attr('class', 'anti-aging')
+$('#div2').attr('class', 'eyes')
+
+
+$('#div1').html('<h3 align="center">' + beauty_1['name'] + '</h3>' +
+					'<h3 align="center">' + beauty_1['price'] + '</h3>' +
+					'<h3 align="center">' + beauty_1['category'] + '</h3>' +
+					'<img src =' + "'" + beauty_1['picture'] + "'" + ">"
+					)
+
+
+beauty_1.selling_points.forEach(function(item) {
+	$('#div1').append('<li>' + item + '</li>')
+});
+
+
+$('#div2').html('<h3 align="center">' + beauty_2['name'] + '</h3>' +
+					'<h3 align="center">' + beauty_2['price'] + '</h3>' +
+					'<h3 align="center">' + beauty_2['category'] + '</h3>' +
+					'<img src =' + "'" + beauty_2['picture'] + "'" + ">"
+					)
+
+beauty_2.selling_points.forEach(function(item) {
+	$('#div2').append('<li>' + item + '</li>')
+})
+
+})
