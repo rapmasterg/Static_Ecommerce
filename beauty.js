@@ -17,7 +17,7 @@ var beauty_2 = {
 $('#beauty1').append('<h3>' + beauty_1['name'] + '</h3>' +
 					'<h3>' + beauty_1['price'] + '</h3>' +
 					'<h3>' + beauty_1['category'] + '</h3>' +
-					'<img src =' + beauty_1['picture'] + '/>'
+					'<img src =' + "'" + beauty_1['picture'] + "'" + ">"
 					)
 
 beauty_1.selling_points.forEach(function(item) {
@@ -28,7 +28,7 @@ beauty_1.selling_points.forEach(function(item) {
 $('#beauty2').append('<h3>' + beauty_2['name'] + '</h3>' +
 					'<h3>' + beauty_2['price'] + '</h3>' +
 					'<h3>' + beauty_2['category'] + '</h3>' +
-					'<img src =' + beauty_2['picture'] + '/>'
+					'<img src =' + "'" + beauty_2['picture'] + "'" + ">"
 					)
 
 beauty_2.selling_points.forEach(function(item) {
