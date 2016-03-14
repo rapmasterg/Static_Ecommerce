@@ -31,14 +31,14 @@ beauty_1.selling_points.forEach(function(item) {
 });
 
 
-$('#beauty2').append('<h3>' + beauty_2['name'] + '</h3>' +
-					'<h3>' + beauty_2['price'] + '</h3>' +
-					'<h3>' + beauty_2['category'] + '</h3>' +
+$('#div2').append('<h3 align="center">' + beauty_2['name'] + '</h3>' +
+					'<h3 align="center">' + beauty_2['price'] + '</h3>' +
+					'<h3 align="center">' + beauty_2['category'] + '</h3>' +
 					'<img src =' + "'" + beauty_2['picture'] + "'" + ">"
 					)
 
 beauty_2.selling_points.forEach(function(item) {
-	$('#beauty2').append('<li>' + item + '</li>')
+	$('#div2').append('<li>' + item + '</li>')
 })
 
 
@@ -77,18 +77,18 @@ $('#div1').html('<h3 align="center">' + pie1['name'] + '</h3>' +
 
 
 pie1.selling_points.forEach(function(item) {
-	$('#div1').append('<li>' + item + '</li>')
+	$('#div1').append('<li align="center">' + item + '</li>')
 });
 
 
-$('#div2').html('<h3>' + pie2['name'] + '</h3>' +
-					'<h3>' + pie2['price'] + '</h3>' +
-					'<h3>' + pie2['category'] + '</h3>' +
+$('#div2').html('<h3 align="center">' + pie2['name'] + '</h3>' +
+					'<h3 align="center">' + pie2['price'] + '</h3>' +
+					'<h3 align="center">' + pie2['category'] + '</h3>' +
 					'<img src =' + "'" + pie2['picture'] + "'" + ">"
 					)
 
 pie2.selling_points.forEach(function(item) {
-	$('#div2').append('<li>' + item + '</li>')
+	$('#div2').append('<li align="center">' + item + '</li>')
 })
 
 })
